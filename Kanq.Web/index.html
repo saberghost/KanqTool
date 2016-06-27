@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+    <script>
+        onload = function () {
+            document.getElementById("btnOpenUrl").onclick = function () {
+                open("ExportExcel.ashx");
+            }
+        };
+    </script>
+</head>
+<body>
+    <a href="ExportExcel.ashx" target="_blank">下载</a>
+    <input id="btnOpenUrl" type="button" value="下载" />
+</body>
+</html>
